@@ -1,0 +1,38 @@
+*,
+*::before,
+*::after {
+    outline: none;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(htpps://source.unsplash.com/e1Bj-CGECpU);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: snow;
+}
+
+div {
+    display: grid;
+    place-items: center;
+}
+
+button {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+#increment-btn {
+    background: darkred;
+}
+
+#save-btn {
+    background: darkgreen;
+}
